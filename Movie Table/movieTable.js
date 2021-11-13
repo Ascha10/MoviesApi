@@ -34,7 +34,7 @@ getData()
 
 
 function gifLoader(){
-    bodyTable.innerHTML += `<img id="loader" src="/Pictures/4q43.gif">`
+    bodyTable.innerHTML += `<img id="loader" src="../Pictures/4q43.gif">`
 }  
 
 function hideGifLoader(){
