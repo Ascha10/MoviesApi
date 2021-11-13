@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="movieCards.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/658055baba.js" crossorigin="anonymous"></script>    
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <section id="logosPart">
+            <img src="../Logos/IMG-20211107-WA0014.jpg" alt="">
+            <a href="https://www.tech-career.org/"><img src="../Logos/IMG-20211107-WA0016.jpg" alt=""></a>    
+        </section>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../Movie Table/movieTable.html">MOVIES LIST</a></li>
+                <li><a href="#">MOVIES</a></li>
+                <li><a href="../Movie Operation/movieOperation.html">ADD MOVIE</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="searchPart">
+            <span id="searchtitle" for="">Search By</span>
+
+            <select id="selected">
+                <option value="movieName">Movie Name</option>
+                <option value="rating">Rating</option>
+                <option value="date">Date</option>
+                <option value="A-Z">A-Z</option>
+            </select>
+
+            <input type="text" id="SearchTheName">
+            <button id="SearchBtn" type="button">Search</button>
+
+        </section>
+        
+        <section id="container"></section>
+
+        <section id="containerForDetail"></section>
+        
+    </main>
+    
+    <footer>
+        <p> 
+            © All The Right Reserved To Indi_com <a href="https://github.com/"><i class="fab fa-github"></i></a><a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a><a href="https://he-il.facebook.com/"><i class="fab fa-facebook"></i></a>
+        </p>
+    </footer>
+
+    <script src="../Movie Table/movieTable.js" type="text/javascript"></script>
+    <script src="movieCards.js" type="text/javascript"></script>
+</body>
+</html>
